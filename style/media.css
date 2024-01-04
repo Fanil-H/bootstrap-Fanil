@@ -1,0 +1,71 @@
+@media (max-width: 767px) {
+    .header-container, .container-banner, .cargo-parameters-container, .cost-calculation-container, .placing-order-container, .example-form-container, .regional-promotion-container, .footer-container {
+        width: 100%;
+        padding: 0 20px;
+    }
+    .button-cell>button {
+        font-size: 16px;
+    }
+    .banner-title>h2 {
+        font-size: 36px;
+        width: 95%;
+        margin: auto;
+        padding: 20px 0;
+    }
+    .block-banner {
+        background: none;
+    }
+    .wrapper-banner {
+        background-color: #000000;
+    }
+    .logo-image {
+        margin-top: 15px;
+    }
+    .my-btn-2 {
+        padding-top: 30px;
+    }
+    .department-selection {
+        border-radius: 10px 10px 0 0;
+    }
+    .google-maps-block>iframe {
+        border-radius: 0 0 10px 10px !important;
+    }
+    .information-cell {
+        padding: 5px 20px;
+        margin: 10px;
+        min-height: auto;
+        text-align: center;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .header-container, .container-banner, .cargo-parameters-container, .cost-calculation-container, .placing-order-container, .clients-data-container, .example-form-container, .regional-promotion-container, .footer-container {
+        width: 90%;
+        margin: auto;
+    }
+    .button-cell>button {
+        font-size: 18px;
+    }
+    .banner-title>h2 {
+        font-size: 48px;
+    }
+    
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .button-cell>button {
+        font-size: 18px;
+        padding: 20px 0;
+    }
+    
+}
+
+@media (min-width: 1640px) {
+    .header-container, .container-banner, .cargo-parameters-container, .cost-calculation-container, .placing-order-container, .clients-data-container, .example-form-container, .regional-promotion-container, .footer-container {
+        width: 70%;
+        margin: auto;
+    }
+    .contacts-us__data {
+        font-size: 18px;
+    }
+}
